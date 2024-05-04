@@ -1,0 +1,35 @@
+// _navigation.scss
+
+.nav {
+  background-color: $color-white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .nav__container {
+    display: flex;
+    justify-content: space-between; // Adjust alignment
+    align-items: center; // Center items vertically
+  }
+
+  .nav__title {
+    color: $color-blue;
+    font-weight: bold; // Make the logo bold
+  }
+
+  .nav__list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+    li {
+      a {
+        text-decoration: none;
+        color: $color-blue;
+
+        &.active {
+          border-bottom: 2px solid $color-orange;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.hero {
+  background-color: $color-light-background;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center; // Align items vertically
+  justify-content: space-between; // Space items evenly
+  margin: 0 auto; // Center the hero section
+
+  .hero__content {
+    max-width: 500px;
+    color: $color-blue;
+    padding-left: 100px; //ugh I hate this solution
+    line-height: 1.25;
+    margin-right: 50px;
+  }
+
+  .hero__image-container {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-right: 100px; //YES THIS ONE
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .hero__button {
+    background-color: $color-orange;
+    color: $color-white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: darken($color-orange, 10%);
+    }
+  }
+}
