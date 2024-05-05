@@ -169,11 +169,42 @@
   height: 24px;
 }
 
+.destination {
+  background-color: #fefaf5;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.5;
+  background-image: url(../../assets/images/hawaii.jpg);
+}
+.destination__title {
+  color: #335576;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.itinerary {
+  padding: 20px;
+  line-height: 1.5;
+  display: flex .itinerary __card;
+  display-background-color: #ffffff;
+  display-display: flex;
+}
+.itinerary__card--day {
+  color: #335576;
+  font-size: 2rem;
+  margin-top: 0;
+}
+.itinerary__card--ist {
+  list-style-type: none;
+  margin-left: 20px;
+  color: #335576;
+  margin-bottom: 20px;
+}
+
 body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
   font-family: "Verdana", sans-serif;
-  background-color: #fefaf5;
 }/*# sourceMappingURL=main.css.map */

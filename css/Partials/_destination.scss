@@ -1,0 +1,13 @@
+.destination {
+  background-color: $color-light-background;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.5;
+  background-image: url(../../assets/images/hawaii.jpg);
+
+  &__title {
+    color: $color-blue;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+}

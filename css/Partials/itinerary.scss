@@ -1,0 +1,21 @@
+.itinerary {
+  padding: 20px;
+  line-height: 1.5;
+  display: flex &__card {
+    background-color: $color-white;
+    display: flex;
+  }
+
+  &__card--day {
+    color: $color-blue;
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  &__card--ist {
+    list-style-type: none;
+    margin-left: 20px;
+    color: $color-blue;
+    margin-bottom: 20px;
+  }
+}
