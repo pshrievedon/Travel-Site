@@ -1,0 +1,73 @@
+.destination__hawaii {
+  background-image: url(../../assets/images/hawaii.jpg);
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -2rem; //HATE THIS SOLUTION
+  padding: 0;
+}
+
+.destination__greece {
+  //AND THIS ONE
+  background-image: url(../../assets/images/greece.jpg);
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -2rem;
+  padding: 0;
+}
+
+.destination__iceland {
+  background-image: url(../../assets/images/iceland.jpg);
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -2rem;
+}
+
+.destination__title {
+  color: $color-white;
+  font-size: 4rem;
+  display: flex;
+  padding: 3rem;
+}
+.cards {
+  padding: 20px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+.card {
+  background-color: $color-white;
+  width: 14.688rem;
+  height: 22rem;
+  border-radius: 5px;
+  padding: 1.25rem;
+  margin: 0.5rem;
+}
+.card__top {
+  border-bottom: 2.5px solid;
+}
+.card__header {
+  text-align: center;
+  margin: 0;
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.card__item {
+  background-color: $color-light-background;
+  text-align: center;
+  padding: 5%;
+}

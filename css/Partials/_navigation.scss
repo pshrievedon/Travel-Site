@@ -2,8 +2,8 @@
 
 .nav {
   background-color: $color-white;
-  padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0px 80px;
+  margin: 20px;
 
   .nav__container {
     display: flex;
@@ -13,7 +13,7 @@
 
   .nav__title {
     color: $color-blue;
-    font-weight: bold; // Make the logo bold
+    font-weight: bold;
   }
 
   .nav__list {
@@ -24,8 +24,7 @@
     li {
       a {
         text-decoration: none;
-        color: $color-blue;
-
+        color: black;
         &.active {
           border-bottom: 2px solid $color-orange;
         }
